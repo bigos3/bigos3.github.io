@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            font-family: Verdana, sans-serif;
+        }
+        header {
+            margin: auto;
+            text-align: center;
+            width: 85%;
+            background-color: rgb(250, 204, 238);
+            padding: 10px;
+            border-width: 3px;
+            font-size: larger;
+            font-family: cursive;
+        }
+        footer {
+            margin: auto;
+            text-align: center;
+            width: 85%;
+            background-color: rgb(247, 232, 243);
+            padding: 10px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            width: 85%;
+            margin: 20px auto;
+            padding: 10px;
+        }
+        .content {
+            flex: 1;
+            max-width: 800px;
+            padding: 0 10px;
+            font-size: large;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: rgb(250, 204, 238);
+            padding: 10px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            text-align: center; 
+        }
+        .lewy-sidebar {
+            margin-right: 10px;
+        }
+        .prawy-sidebar {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kanapki z szynką</h1>
+    </header>
+    <div class="container">
+        <div class="sidebar lewy-sidebar">
+            <h2>Różnorodność kanapki</h2>
+            <p>Oto inny ciekawy fakt: kanapki z szynką są popularne na całym świecie, ale w różnych krajach mają swoje unikalne wersje. Na przykład w Hiszpanii możesz znaleźć "bocadillo de jamón", czyli kanapkę z hiszpańską szynką serrano, często podawaną na chrupiącej bagietce. W Włoszech natomiast podobne kanapki mogą zawierać prosciutto i są często serwowane na ciabacie lub focaccii. Każda z tych wersji odzwierciedla lokalne smaki i tradycje kulinarne!</p>
+        </div>
+        <div class="content">
+            <p>Kanapka z szynką to klasyczna i popularna potrawa, która składa się z dwóch kawałków pieczywa, między którymi umieszczona jest szynka. Może to być zarówno szynka gotowana, wędzona, pieczona, jak i surowa. Szynka jest jednym z podstawowych składników, ale kanapka ta może być wzbogacona o różnorodne dodatki, takie jak masło, sałata, pomidor, ogórek, ser, majonez, musztarda, a nawet jajko.</p>
+            <p>W zależności od regionu i gustu, kanapka z szynką może być podawana na różnym rodzaju pieczywa, na przykład na chlebie pszennym, żytnim, bagietce, bułce, czy tostach. Można ją również podgrzać, tworząc wersję na ciepło, jak np. tost z szynką.</p>
+            <p>Kanapka z szynką jest ceniona ze względu na swoją prostotę, łatwość przygotowania i możliwość modyfikacji składników według własnych upodobań. Jest popularnym wyborem na śniadanie, lunch, czy jako przekąska, zarówno w domu, jak i w różnych miejscach gastronomicznych.</p>
+        </div>
+        <div class="sidebar prawy-sidebar">
+            <h2>Historia kanapki</h2>
+            <p>Kanapkę, jaką znamy dzisiaj, wymyślił hrabia John Montagu. Co ciekawe, jej angielska nazwa wywodzi się od położonego na południowym-wschodzie Wielkiej Brytanii angielskiego miasteczka, w którym mieszkał ów hrabia Sandwich.</p>
+        </div>
+    </div>
+    <footer>
+        <h2>Kanapki z szynką są bardzo spoko, daje ocenę 8/10</h2>
+    </footer>
+</body>
+</html>
